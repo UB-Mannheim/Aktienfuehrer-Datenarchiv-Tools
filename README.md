@@ -8,13 +8,15 @@ Overview
 The [Aktienführer data archive][akf-link] was created at the Mannheim University Library 
 in a project funded by the German Research Association (DFG).  
 We included data from the Aktienführer 1956-2016.
-Until 1999, the data was published in book form. 
-To extract the research data from these analoge source, 
-the books from 1976-1999 were recorded manually,
-the books from 1956-1975 were recorded automatically.
+Until 1999, the data was published in book form.
+To extract the research data from these analog sources different approaches were applied. 
+The books from 1976-1999 were recorded manually, 
+while the books from 1956-1975 were recorded automatically. 
+The extraction from digital sources was only perfomed automatically. 
 To gain the goal of automatically recording several tools were developed and 
 published under the patronage of the Mannheim University Library.
-
+### Work process 
+#### Books
 ![process](docs/img/Arbeitsschritte_mit_Logos.PNG)
 
 [crass][crass-link] is a command line driven post-processing tool 
@@ -47,6 +49,17 @@ which can modify and update certain parts of the database.
 Amongst other things it load the database with json-files 
 from `docxstruct` and normalize and deduplicate the data.
 
+#### CDs
+![process](docs/img/Arbeitsschritte_mit_Logos_CD.PNG)
+
+[akf-cdparser][cdparser-link] analyses, categorizes and segments the data from textbased documents.
+It is written in `JavaScript` and specialized to the `html` fileformat. 
+The contained data in each segment will further get structured and parsed into a `json` file.
+
+[dbTools][dbTools-link] is a collection of little scripts, 
+which can modify and update certain parts of the database. 
+Amongst other things it load the database with json-files 
+from `docxstruct` and normalize and deduplicate the data.
 
 Note that the automatic processing will sometimes need some manual adjustments.
 
@@ -62,3 +75,4 @@ Originally written by Jan Kamlah and Johannes Stegmüller.
 [ocromore-link]: https://github.com/UB-Mannheim/ocromore
 [docxstruct-link]: https://digi.bib.uni-mannheim.de/aktienfuehrer/
 [dbTools-link]: https://digi.bib.uni-mannheim.de/aktienfuehrer/
+[cdparser-link]: https://digi.bib.uni-mannheim.de/aktienfuehrer/
