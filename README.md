@@ -15,7 +15,7 @@ the books from 1956-1975 were recorded automatically.
 To gain the goal of automatically recording several tools were developed and 
 published under the patronage of the Mannheim University Library.
 
-![process](docs/img/Arbeitsschritte_mit_Logos.png)
+![process](docs/img/Arbeitsschritte_mit_Logos.PNG)
 
 [crass][akf-link] is a command line driven processing tool for multiple ocr-engine.  
 The main purpose is to handle multiple ocr-engine with one interface for 
