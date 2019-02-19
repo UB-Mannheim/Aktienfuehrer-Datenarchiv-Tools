@@ -59,7 +59,7 @@ The contained data in each segment will further get structured and parsed into a
 [dbTools][dbTools-link] is a collection of little scripts, 
 which can modify and update certain parts of the database. 
 Amongst other things it load the database with json-files 
-from `docxstruct` and normalize and deduplicate the data.
+from `akf-cdparser` and normalize and deduplicate the data.
 
 Note that the automatic processing will sometimes need some manual adjustments.
 
