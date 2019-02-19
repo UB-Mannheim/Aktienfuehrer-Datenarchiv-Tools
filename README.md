@@ -38,19 +38,15 @@ wide-range of performant use-cases like msa.
 To evaluate the results you can either use the common standard
 isri tool to generate a accuracy report or do visual comparision with diff-tools (default "meld").
 
-[docxstruct][docxstruct-link] further parse the different ocr-outputfiles to a sqlite-database.
-The purpose of this database is to serve as an exchange and store platform using 
-pandas as handler. Combining pandas and the dataframe-objectifier offers a 
-wide-range of performant use-cases like msa. 
-To evaluate the results you can either use the common standard
-isri tool to generate a accuracy report or do visual comparision with diff-tools (default "meld").
+[docxstruct][docxstruct-link] analyses, categorizes and segments the data from textbased documents.
+At the moment it is specialized to the `hocr` fileformat. 
+The contained data in each segment will further get structured and parsed into a `json` file.
 
-[dbTools][dbTools-link] further parse the different ocr-outputfiles to a sqlite-database.
-The purpose of this database is to serve as an exchange and store platform using 
-pandas as handler. Combining pandas and the dataframe-objectifier offers a 
-wide-range of performant use-cases like msa. 
-To evaluate the results you can either use the common standard
-isri tool to generate a accuracy report or do visual comparision with diff-tools (default "meld").
+[dbTools][dbTools-link] is a collection of little scripts, 
+which can modify and update certain parts of the database. 
+Amongst other things it load the database with json-files 
+from `docxstruct` and normalize and deduplicate the data.
+
 
 Note that the automatic processing will sometimes need some manual adjustments.
 
