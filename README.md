@@ -21,14 +21,14 @@ published under the patronage of the Mannheim University Library.
 
 [crass][crass-link] 
 is a command line driven post-processing tool for scanned sheets of paper. 
-It crops segments based on separator lines and
-splices them afterwards together in a certain order to gain a standalone, 
-single column text section. This simplifies the layout analysis 
-for following ocr steps and bundles related text section.
+It crops segments, based on separator lines, and
+splices them afterwards together in a certain order to gain standalone, 
+single-column text sections. This simplifies the layout analysis 
+for following ocr steps and bundles related text sections.
 In an additional pre-processing step, which is called deskewing, 
 crass can also correct the rotation of the page.
 
-[mocrin][mocrin-link] 
+[mocrin][mocrin-link]
 is a command line driven processing tool for multiple ocr-engines.  
 The main purpose is to handle multiple ocr-engines with one interface for 
 a clean and uniform workflow. Another use is to serve as part of a self-configuration
