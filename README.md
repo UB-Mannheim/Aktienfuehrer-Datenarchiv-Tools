@@ -12,8 +12,8 @@ Until 1999, the data was published in book form.
 To extract the research data from these analog sources different approaches were applied. 
 The books from 1976-1999 were recorded manually, 
 while the books from 1956-1975 were recorded automatically. 
-The extraction from digital sources was only perfomed automatically. 
-To gain the goal of automatically recording several tools were developed and 
+The extraction from digital sources was only performed automatically. 
+To gain the goal of automatically recording, several tools were developed and 
 published under the patronage of the Mannheim University Library.
 ### Work process 
 #### Books
@@ -22,12 +22,12 @@ published under the patronage of the Mannheim University Library.
 [crass][crass-link] is a command line driven post-processing tool 
 for scanned sheets of paper. The main purpose is to crop segments 
 based on separator lines and splice them afterwards together in a certain order. 
-In an additional preprocessing step, crass might detect the rotation of the page 
+In an additional pre-processing step, crass might detect the rotation of the page 
 and will rotate it to the correct angle. This process is called "deskewing".
 
 [mocrin][mocrin-link] is a command line driven processing tool for multiple ocr-engine.  
 The main purpose is to handle multiple ocr-engine with one interface for 
-a cleaner and uniform workflow. Another purpose is to serve as part of an self-configuration
+a cleaner and uniform workflow. Another purpose is to serve as part of a self-configuration
 process to extract the best settings for different ocr-engines. 
 Just now you can store multiple configuration files for the ocr-engines.
 It can also be used to cut out areas from image with user-set characteristics, which
@@ -37,10 +37,10 @@ can be further used as training datasets for NN-models.
 The purpose of this database is to serve as an exchange and store platform using 
 pandas as handler. Combining pandas and the dataframe-objectifier offers a 
 wide-range of performant use-cases like msa. 
-To evaluate the results you can either use the common standard
-isri tool to generate a accuracy report or do visual comparision with diff-tools (default "meld").
+To evaluate the result you can either use the common standard
+ISRI tool to generate a accuracy report or do visual comparison with diff-tools (default "meld").
 
-[docxstruct][docxstruct-link] analyses, categorizes and segments the data from textbased documents.
+[docxstruct][docxstruct-link] analyses, categorizes and segments the data from text-based documents.
 At the moment it is specialized to the `hocr` fileformat. 
 The contained data in each segment will further get structured and parsed into a `json` file.
 
@@ -52,7 +52,7 @@ from `docxstruct` and normalize and deduplicate the data.
 #### CDs
 ![process](docs/img/Arbeitsschritte_mit_Logos_CD.PNG)
 
-[akf-cdparser][cdparser-link] analyses, categorizes and segments the data from textbased documents.
+[akf-cdparser][cdparser-link] analyses, categorizes and segments the data from text-based documents.
 It is written in `JavaScript` and specialized to the `html` fileformat. 
 The contained data in each segment will further get structured and parsed into a `json` file.
 
