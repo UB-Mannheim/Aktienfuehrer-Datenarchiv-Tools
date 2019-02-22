@@ -5,7 +5,7 @@
 
 Overview
 --------
-The [Aktienführer data archive][akf-link] was created at the Mannheim University Library 
+The [Aktienführer-Datenarchiv][archiv-link] was created at the Mannheim University Library 
 in a project funded by the German Research Association (DFG).  
 We included data from the Aktienführer 1956-2016.
 Until 1999, the data was published in book form.
@@ -17,10 +17,10 @@ To reach the goal of automatically recording, several tools were developed and
 published under the patronage of the Mannheim University Library.
 ### Work process 
 #### Books
-![process](docs/img/Arbeitsschritte_mit_Logos.PNG)
+![process](docs/img/Arbeitsschritte_mit_Logos.PNG "Book workflow")
 
 [crass][crass-link] 
-is a command line driven post-processing tool for scanned sheets of paper. 
+is a command line driven post-processing tool for scanned sheets of paper.  
 It crops segments, based on separator lines, and
 splices them afterwards together in a certain order to gain standalone, 
 single-column text sections. This simplifies the layout analysis 
@@ -40,7 +40,7 @@ Furthermore it can cut areas out of images with user-set characteristics
 using regular expression, which can be used as training datasets for NN-models.
 
 [ocormore][ocromore-link] 
-unites the best parts of the individual ocr-output to produce an optimal result.   
+unites the best parts of the individual ocr-output to produce an optimal outcome.   
 In the first step, it parses the different ocr-outputfiles to a sqlite-database.
 The purpose of this database is to serve as an exchange and store platform using 
 pandas as handler. Combining pandas and the dataframe-objectifier offers a 
@@ -50,19 +50,20 @@ To evaluate the result you can either use the common standard ISRI tool
 to generate an accuracy report or do visual comparison with diff-tools (default "meld").
 
 [docxstruct][docxstruct-link] 
-analyses, categorizes and segments the data from text-based documents.
+analyses, categorizes and segments the data from text-based documents.  
 At the moment it is specialized to the `hocr` fileformat. 
 The contained data in each segment will be
 parsed in a structured manner into a `json` file.
 
 [dbTools][dbTools-link] 
 is a collection of little scripts, 
-which can modify and update certain parts of the database. 
+which can modify and update certain parts of the akf-database.
+The scripts are customized to the requirements of the project.   
 Amongst other things it loads the database with json-files 
 from `docxstruct` and normalizes and deduplicates the data in the database.
 
 #### CDs
-![process](docs/img/Arbeitsschritte_mit_Logos_CD.PNG)
+![process](docs/img/Arbeitsschritte_mit_Logos_CD.PNG "CD workflow")
 
 [akf-cdparser][cdparser-link]
 analyses, categorizes and segments the data from text-based documents.
@@ -84,10 +85,10 @@ See the website or the GitHub tool-repositories.
 
 Originally written by Jan Kamlah and Johannes Stegmüller.
 
-[akf-link]: https://digi.bib.uni-mannheim.de/aktienfuehrer/
+[archiv-link]: https://digi.bib.uni-mannheim.de/aktienfuehrer/
 [crass-link]: https://github.com/UB-Mannheim/crass
-[mocrin-link]: https://digi.bib.uni-mannheim.de/aktienfuehrer/
+[mocrin-link]: https://github.com/UB-Mannheim/mocrin
 [ocromore-link]: https://github.com/UB-Mannheim/ocromore
-[docxstruct-link]: https://digi.bib.uni-mannheim.de/aktienfuehrer/
-[dbTools-link]: https://digi.bib.uni-mannheim.de/aktienfuehrer/
-[cdparser-link]: https://digi.bib.uni-mannheim.de/aktienfuehrer/
+[docxstruct-link]: https://github.com/UB-Mannheim/docxstruct
+[dbTools-link]: https://github.com/UB-Mannheim/akf-dbtools
+[cdparser-link]: https://github.com/UB-Mannheim/akf-cdparser
