@@ -83,7 +83,17 @@ Further Information
 -------------------
 See the website or the GitHub tool-repositories.
 
-Originally written by Jan Kamlah and Johannes Stegmüller.
+Copyright and License
+----
+
+Copyright (c) 2017 Universitätsbibliothek Mannheim
+
+Author: 
+ * [Jan Kamlah](https://github.com/jkamlah)
+ * [Johannes Stegmüller](https://github.com/Hyper-Node)
+
+The tools are Free Software. You may use them under the terms of the Apache 2.0 License.
+See [LICENSE](./LICENSE) for details.
 
 [archiv-link]: https://digi.bib.uni-mannheim.de/aktienfuehrer/
 [crass-link]: https://github.com/UB-Mannheim/crass
