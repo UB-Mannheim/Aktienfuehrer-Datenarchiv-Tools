@@ -6,15 +6,15 @@
 Overview
 --------
 The [Aktienführer-Datenarchiv][archiv-link] was created at the Mannheim University Library 
-in a project funded by the German Research Association (DFG).  
-We included data from the Aktienführer 1956-2016.
-Until 1999, the data was published in book form.
-To extract the research data from these analog sources different approaches were applied. 
-The books from 1976-1999 were recorded manually, 
-while the books from 1956-1975 were recorded automatically. 
-The capturing from digital sources was performed automatically only. 
-To reach the goal of automatically recording, several tools were developed and 
-published under the patronage of the Mannheim University Library.
+in a project funded by the Deutsche Forschungsgemeinschaft (DFG).  
+We included data from the "Hoppenstedt Aktienführer" 1956-2016, 
+a yearly publication on German listed corporations.
+Until 1999, the data was published in print.
+To extract the research data from those print sources, different approaches were applied. 
+The books from 1976-1999 were recorded manually by "Double Keying". 
+The data from 1956-1975 were recorded automatically by OCR and subsequent parsing. 
+During the process of automated data extraction several tools were developed and published, 
+which are described below in more detail.
 ### Work process 
 #### Books
 ![process](docs/img/Arbeitsschritte_mit_Logos.PNG "Book workflow")
