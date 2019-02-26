@@ -100,5 +100,5 @@ See [LICENSE](./LICENSE) for details.
 [mocrin-link]: https://github.com/UB-Mannheim/mocrin
 [ocromore-link]: https://github.com/UB-Mannheim/ocromore
 [docxstruct-link]: https://github.com/UB-Mannheim/docxstruct
-[dbTools-link]: https://github.com/UB-Mannheim/akf-dbtools
+[dbTools-link]: https://github.com/UB-Mannheim/akf-dbTools
 [cdparser-link]: https://github.com/UB-Mannheim/akf-cdparser
