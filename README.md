@@ -6,7 +6,7 @@
 ## Overview
 
 The [Aktienführer-Datenarchiv][archiv-link] include company data from
-the ["Hoppenstedt Aktienführer"](hoppenstedt-link), a yearly publication about
+the ["Hoppenstedt Aktienführer"][hoppenstedt-link], a yearly publication about
 companies traded at German stock markets. The database contains data from 1956-2016
 and was created by different workflows using tools, which we will describe further here:
 * Until 1999, the data was published in printed books, which were first digitized. Then:
