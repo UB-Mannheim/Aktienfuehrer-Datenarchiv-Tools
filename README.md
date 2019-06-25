@@ -98,7 +98,7 @@ Author:
 The tools are Free Software. You may use them under the terms of the Apache 2.0 License.
 See [LICENSE](./LICENSE) for details.
 
-[archiv-link]: https://digi.bib.uni-mannheim.de/aktienfuehrer/
+[archiv-link]: https://digi.bib.uni-mannheim.de/aktienführer/data/
 [hoppenstedt-link]: https://de.wikipedia.org/wiki/Hoppenstedt_Aktienf%C3%BChrer
 [crass-link]: https://github.com/UB-Mannheim/crass
 [mocrin-link]: https://github.com/UB-Mannheim/mocrin
