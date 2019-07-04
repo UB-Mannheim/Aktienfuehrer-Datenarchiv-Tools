@@ -86,6 +86,18 @@ from `akf-cdparser`, normalizes and deduplicates the data in the database.
 
 Note that the automatic processing will sometimes need some manual adjustments.
 
+### Additional tools & libraries
+
+This sections provides additional tools that are also created or modified in the Aktienführer-Datenarchiv project.
+
+[akf-corelib][corelib-link]
+Library for core functionalites, which get used by multiple projects in the Aktienführer-Datenarchiv work process.
+
+[Betrial][betrial-link]
+The DFG recommends the Bernoulli trial to validate OCR results. To reduce the amount of effort to perform the test, a "Bernoulli Trial HTML Generator" was designed.
+
+[hocr-parser][hocrparser-link]
+It is a modified third party library for modules of the Aktienführer-Datenarchiv work process, but can also be used independently. Originally written by Athento.
 
 ## Copyright and License
 
@@ -106,3 +118,6 @@ See [LICENSE](./LICENSE) for details.
 [docxstruct-link]: https://github.com/UB-Mannheim/docxstruct
 [dbTools-link]: https://github.com/UB-Mannheim/akf-dbTools
 [cdparser-link]: https://github.com/UB-Mannheim/akf-cdparser
+[corelib-link]: https://github.com/UB-Mannheim/akf-corelib
+[hocrparser-link]: https://github.com/UB-Mannheim/hocr_parser
+[betrial-link]: https://github.com/UB-Mannheim/BeTrial
