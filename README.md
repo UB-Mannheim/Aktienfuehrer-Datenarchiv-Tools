@@ -91,13 +91,13 @@ Note that the automatic processing will sometimes need some manual adjustments.
 This sections provides additional tools that are also created or modified in the Aktienführer-Datenarchiv project.
 
 [akf-corelib][corelib-link]
-Library for core functionalites, which get used by multiple projects in the Aktienführer-Datenarchiv work process.
+is a library for core functionalites, which get used by multiple projects in the Aktienführer-Datenarchiv work process.
 
 [Betrial][betrial-link]
-The DFG recommends the Bernoulli trial to validate OCR results. To reduce the amount of effort to perform the test, a "Bernoulli Trial HTML Generator" was designed.
+is a tool that reduces the amount of effort to perform a Bernoulli Trial for OCR-Validation. Given a pool of recognized pages it randomly selects characters, cuts the whole line and the corresponding, recognized text and generates a validation html-page.
 
 [hocr-parser][hocrparser-link]
-It is a modified third party library for modules of the Aktienführer-Datenarchiv work process, but can also be used independently. Originally written by Athento.
+is a modified third party library for modules of the Aktienführer-Datenarchiv work process, but can also be used independently. Originally written by Athento.
 
 ## Copyright and License
 
