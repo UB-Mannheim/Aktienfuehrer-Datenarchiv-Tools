@@ -45,7 +45,7 @@ for different input data.
 Furthermore, it can cut areas out of images using some regular expressions,
 which can be used as training datasets for NN-models.
 
-[ocormore][ocromore-link] 
+[ocromore][ocromore-link] 
 unites the best parts of the individual OCR-output to produce an optimal outcome.
 In the first step, it parses the different OCR-output-files to a SQLite-database.
 The purpose of this database is to serve as an exchange and store platform using
